@@ -1,7 +1,7 @@
 import { createTheme } from "@material-ui/core";
 
-const defaultBlue = "#2699fb";
-const defaultOrange = "#7cb342";
+const defaultBlue = "#0B72B9";
+const defaultOrange = "#FFBA60";
 
 export default createTheme({
   palette: {
@@ -18,37 +18,18 @@ export default createTheme({
   },
 
   typography: {
-    h1: {
-      color: "#fff",
-      fontFamily: ['"Poppins"', "Montserrat"].join(","),
+    tab: {
+      fontFamily: "Raleway",
+      textTransform: "none",
+      fontWeight: 700,
+      fontSize: "1rem",
     },
-    h2: {
-      color: "#fff",
-      fontFamily: ['"Poppins"', "Montserrat"].join(","),
-    },
-    h3: {
-      color: "#fff",
-      fontFamily: ['"Poppins"', "Montserrat"].join(","),
-    },
-    h4: {
-      color: "#fff",
-      fontFamily: ['"Poppins"', "Montserrat"].join(","),
-    },
-    h5: {
-      color: "#fff",
-      fontFamily: ['"Poppins"', "Montserrat"].join(","),
-    },
-    h6: {
-      color: "#fff",
-      fontFamily: ['"Poppins"', "Montserrat"].join(","),
-    },
-    body1: {
-      color: "#000",
-      fontFamily: ['"Montserrat"', "Poppins"].join(","),
-    },
-    body2: {
-      color: "#000",
-      fontFamily: ['"Montserrat"', "Poppins"].join(","),
+    estimate: {
+      fontFamily: "Raleway",
+      fontSize: "1rem",
+      fontStyle: "italic",
+      textTransform: "none",
+      color: "white",
     },
   },
 });
